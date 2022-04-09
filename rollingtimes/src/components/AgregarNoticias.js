@@ -67,7 +67,7 @@ const Noticias = (props) => {
           };
           console.log(token);
   
-          const respuesta = await fetch("http://localhost:4001/api/noticia", configuracion);
+          const respuesta = await fetch("https://rollingtimes-backend.herokuapp.com/api/noticia", configuracion);
           const informacion = await respuesta.json();
   
           console.log(respuesta);

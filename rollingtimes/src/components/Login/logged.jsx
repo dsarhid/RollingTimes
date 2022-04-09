@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = "http://localhost:4001/api/login/"
+const baseUrl = "https://rollingtimes-backend.herokuapp.com/api/login/"
 
 const loginS = async credentials => {
     const { data } = await axios.post(baseUrl, credentials)

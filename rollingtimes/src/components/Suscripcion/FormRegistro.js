@@ -88,7 +88,7 @@ const FormRegistro = (props) => {
         };
 
         const respuesta = await fetch(
-          "http://localhost:4001/api/suscripcion/",
+          "https://rollingtimes-backend.herokuapp.com/api/suscripcion/",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
