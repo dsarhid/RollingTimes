@@ -1,0 +1,237 @@
+/* COLORES */
+.background-black {
+  background-color: #222222;
+}
+.background-orange {
+  background-color: #ec4e20;
+}
+.background-pink {
+  background-color: #f6e8ea;
+}
+.background-blue {
+  background-color: #537d8d;
+}
+#modal-background {
+  border-radius: 100px;
+}
+
+/* FONTS */
+h1,
+h2,
+h3,
+h4,
+h5,
+strong {
+  font-family: "Roboto Slab";
+  font-weight: 800;
+}
+
+p,
+small {
+  font-family: "Roboto Slab";
+  font-weight: 100;
+}
+
+/* TITULO MODAL */
+
+.login-title {
+  font-family: "Roboto Slab";
+  font-weight: 800;
+  background-color: #222222;
+  padding: 15px;
+  color: #fff;
+}
+
+.titulo-secundario {
+  opacity: 0.95;
+}
+
+/* INPUT + EFECTOS */
+
+.input-email {
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+.input-text {
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+.input-password {
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+.input-textArea {
+  resize: none;
+  border: 1;
+}
+#input-select {
+  border: none;
+  padding: 0 0;
+  opacity: 0.8;
+}
+#input-select2 {
+  border: none;
+  padding: 0 0;
+  opacity: 0.8;
+}
+#input-select3 {
+  border: none;
+  padding: 0 0;
+  opacity: 0.8;
+}
+
+#input-select:focus {
+  outline: none;
+}
+#input-select:hover {
+  outline: none;
+}
+#input-select2:focus {
+  outline: none;
+}
+#input-select2:hover {
+  outline: none;
+}
+#input-select3:focus {
+  outline: none;
+}
+#input-select3:hover {
+  outline: none;
+}
+.input-email:focus {
+  outline: none;
+}
+.input-text:focus {
+  outline: none;
+}
+.input-password:focus {
+  outline: none;
+}
+
+.effect-input {
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.effect-input ~ .focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #222222;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.effect-input:focus ~ .focus-border {
+  width: 100%;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.col-login {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.border-buscador{
+  border-radius: 5px;
+}
+
+/* BOTONES + EFECTOS */
+
+.boton-facebook {
+    font-family: "Roboto Slab";
+    font-weight: 100;
+    font-size: 20px;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #247df1;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 6px;
+  color: white;
+}
+.boton-google {
+    font-family: "Roboto Slab";
+    font-weight: 100;
+    font-size: 20px;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ec4e20;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 6px;
+  color: white;
+}
+.boton-facebook:hover {
+  background-color: rgb(0, 80, 253);
+}
+.boton-google:hover {
+  background-color: rgb(240, 33, 26);
+}
+
+.button-send-close {
+  font-family: "Roboto Slab";
+  font-weight: 100;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 6px;
+  width: 200px;
+  color: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.button-send-close:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* TITULO */
+
+.h5-titulo {
+  font-family: "Roboto Slab";
+  font-weight: 100;
+  color: #222222;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+}
+.h5-titulo:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 0;
+  top: 22px;
+  background: #222222;
+  height: 1px;
+}
+.h5-titulo,.i-titulo {
+  font-family: "Roboto Slab";
+  font-weight: 100;
+  font-style: normal;
+  background: #fff;
+  position: relative;
+}
+.h5-titulo:focus {
+  outline: none;
+}
+
+.imagen-responsive{
+position: center;
+background-position: center;
+size: cover;
+background-size: cover;
+}

@@ -1,0 +1,17 @@
+#InicioContainer {
+    background-color:#f8f9fa;
+}
+
+.componente {
+    min-width: 100vw;
+    min-height: 80px;
+}
+
+.bg-rojo {
+    background-color: rgb(219, 120, 120);
+}
+
+.bg-azul {
+    background-color: rgb(128, 135, 233);
+}
+

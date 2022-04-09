@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bg1{
+  background-color: #222222;
+}
+.bg2{
+  background-color: #ec4e20;
+}
+.bg3{
+  background-color: #f8f9fa;
+}
+.bg4{
+  background-color: #537d8d;
+}
+.bg5{
+  background-color: #f7f7f7;
+}
+
+.color1{
+  color: #222222;
+}
+.color2{
+  color:#ec4e20;
+}
+.color3{
+  color:#f6e8ea;
+}
+.color4{
+  color:#537d8d;
+}
+.color5{
+  color:#f7f7f7;
+}
+
+Label{
+  font-family: "Roboto Slab", serif;
+}
+
+#navDesk{
+  width: 100%;
+}
+#dropdown-button:after {
+  display:none;
+}
+#barrasIcon{
+  color: #ec4e20;
+}
+#hr{
+  background-color:#ec4e20;
+  
+}
+#mobilNav{
+  position: sticky;
+}
+
+#notfoundlinks a {
+  opacity: 1;
+  color: #ec4e20;
+  text-decoration: none;
+  min-width: 100%;
+  font-size: 15px;
+  /* border-bottom: 1px solid #ec4e20; */
+  padding: 2px;
+}
+
+#notfoundlinks  a:hover {
+  opacity: 1;
+  color: #ec4e20;
+  text-decoration: none;
+  min-width: 100%;
+  font-size: 15px;
+  /* border-bottom: 1px solid #ec4e20; */
+  padding: 2px;
+}
+
+.categoria-titulo {
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+}
+
+.categoria-subtitulo {
+  font-weight: 400;
+  font-family: "Roboto Slab", serif;
+}
+
+.categoria-texto {
+  font-weight: 100;
+  font-family: "Roboto Slab", serif;
+}
+
+.btn-primario-categoria
+{
+    background-color: #ec4e20 !important; 
+    border-color: #ec4e20
+}
+
+.btn-eliminar-categoria
+{
+    background-color: #222222 !important; 
+    border-color: #222222
+}
+
+.btn-editar-categoria
+{
+    background-color: #537D8D !important; 
+    border-color: #537D8D
+}
+
+.logo-icono-mano{
+  cursor: pointer;
+}
+.link{
+  text-decoration: none;
+}
+#link-footer1{
+  text-decoration: none;
+}
+#link-footer2{
+  text-decoration: none;
+}
+.link:hover{
+  color: #ec4e20;
+}
+
+.slider-responsive{
+  object-fit: cover;
+  height: 550px ;
+}
+
+.col-noticias {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}

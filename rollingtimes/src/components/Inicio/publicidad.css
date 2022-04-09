@@ -1,0 +1,73 @@
+.publicidad-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  cursor: pointer;
+  will-change: transform;
+}
+
+.title {
+  padding: 1rem;
+}
+
+.title1 {
+  font-weight: 100;
+}
+
+.title2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.title3 {
+  font-weight: 100;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad-gif {
+  margin-left: 2rem;
+}
+
+#AdLogo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  left: 15px;
+  bottom: 5px;
+}
+
+#AdLogo p {
+  font-size: 11px;
+  font-weight: 900;
+  margin: 0;
+  padding: 2px 5px;
+  color: rgb(159, 209, 255);
+  border: 2px solid rgb(159, 209, 255);
+  border-radius: 4px;
+}
+@media (max-width: 600px) {
+  .publicidad-container {
+    display: block;
+  }
+  .title3, .title1, .title2{
+    padding-top: 8px ;
+font-size: 12px;
+  }
+  .ad-gif{
+    width: 250px;
+  }
+  .ad-logo{
+    padding-top: 5px;
+
+  }
+}

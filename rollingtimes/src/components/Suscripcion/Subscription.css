@@ -1,0 +1,31 @@
+/* CARD */
+
+.tamaño-card{
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.tamaño-card:hover {
+    transform: translateY(-3px);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+#card-img{
+    opacity: 0.80;
+    border-top-left-radius: calc(0.8rem - 1px);
+    border-top-right-radius: calc(0.8rem - 1px);
+}
+
+ul{
+    list-style-type: circle;
+    color:#222222;
+}
+.beneficios-card{
+    height: 150px;
+}
+
+@media screen and (max-width: 430px){
+    .tamaño-card {
+      height: 500px;
+    }
+   
+  }
