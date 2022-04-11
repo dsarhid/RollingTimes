@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 
 
-const CategoriasButton = (cat) => {
+const CategoriasButton = (categorias) => {
 
     return (
         <Fragment>
-            <option>{cat.categoria.nombre}</option>
+            <option>{categorias.categoria.nombre}</option>
         </Fragment>
     );
 };

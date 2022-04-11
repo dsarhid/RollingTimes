@@ -38,10 +38,10 @@ const ListarCategorias = (props) => {
 
       {!props.cargando && (
         <ListGroup className="my-5">
-          {props.categorias.map((cat) => (
+          {props.categorias.map((categorias) => (
             <ItemCategoria
-              categoria={cat}
-              key={cat._id}
+              categoria={categorias}
+              key={categorias._id}
               consultarCategorias={props.consultarCategorias}
             ></ItemCategoria>
           ))}

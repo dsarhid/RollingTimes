@@ -253,7 +253,7 @@ function App() {
             }}
         />
 
-        <Route exact path="/cat/:nombreCategoria">
+        <Route exact path="/categorias/:nombreCategoria">
           <Tabs key={categorias._id}/>
         </Route>
 
