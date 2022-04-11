@@ -115,7 +115,7 @@ const Navegacion = (props) => {
               <hr/>
               <Nav className="ml-5 mr-5 dark">
                 {props.categorias.map((categoria) => (
-                  <Nav.Link key={categoria._id} href={`/cat/${categoria.nombre}`}><p className="color4 link my-0">{categoria.nombre}</p></Nav.Link>
+                  <Nav.Link key={categoria._id} href={`/categorias/${categoria.nombre}`}><p className="color4 link my-0">{categoria.nombre}</p></Nav.Link>
                 ))}
               </Nav>
               <Nav>

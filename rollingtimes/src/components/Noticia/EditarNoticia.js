@@ -249,9 +249,9 @@ const EditarNoticia = (props) => {
                 onChange={(e) => setCategoria(e.target.value)}
                 value={categoria}
               >
-                {props.categorias.map((cat, idx) => (
-                  <option key={idx} value={cat.nombre}>
-                    {cat.nombre}
+                {props.categorias.map((categorias, idx) => (
+                  <option key={idx} value={categorias.nombre}>
+                    {categorias.nombre}
                   </option>
                 ))}
               </Form.Control>

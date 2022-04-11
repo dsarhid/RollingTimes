@@ -219,9 +219,9 @@ const Noticias = (props) => {
                   onChange={(e) => setCategoria(e.target.value)}
                   value={categoria}
                 >
-                  {props.categorias.map((cat, idx) => (
-                    <option key={idx} value={cat.nombre}>
-                      {cat.nombre}
+                  {props.categorias.map((categorias, idx) => (
+                    <option key={idx} value={categorias.nombre}>
+                      {categorias.nombre}
                     </option>
                   ))}
                   <option disabled value={"seleccione una opcion"} key={-1}>
